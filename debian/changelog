@@ -1,3 +1,9 @@
+eiskaltdcpp-web-devel (1.0-0ppa2~focal1) focal; urgency=medium
+
+  * Small improvements in the package.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 22 Jan 2020 01:05:13 +0300
+
 eiskaltdcpp-web-devel (1.0-0ppa1~focal1) focal; urgency=medium
 
   * New Git snapshot.
