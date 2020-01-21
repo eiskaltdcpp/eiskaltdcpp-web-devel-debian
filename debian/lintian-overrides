@@ -1,0 +1,2 @@
+# Symlinks should be absolute for correct work of eiskaltdcpp-web.
+eiskaltdcpp-web: symlink-should-be-relative usr/share/eiskaltdcpp/web/js/lib/*
