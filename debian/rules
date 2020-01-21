@@ -3,9 +3,8 @@
 %:
 	dh $@
 
-override_dh_auto_install:
-	dh_auto_install
+override_dh_link:
 	dh_link /usr/share/javascript/jquery/jquery.js \
-	         usr/share/eiskaltdcpp/web/js/lib/jquery.js \
+		/usr/share/eiskaltdcpp/web/js/lib/jquery.js \
 	        /usr/share/javascript/jquery-tablesorter/jquery.tablesorter.js \
-	        usr/share/eiskaltdcpp/web/js/lib/jquery.tablesorter.js
+	        /usr/share/eiskaltdcpp/web/js/lib/jquery.tablesorter.js
