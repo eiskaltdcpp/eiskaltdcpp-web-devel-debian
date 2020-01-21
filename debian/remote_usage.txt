@@ -1,0 +1,47 @@
+### Remote usage ###
+
+1) Make sure that eiskaltdcpp-daemon is built with JSON-RPC support
+   (see -DJSONRPC_DAEMON=ON configuration option).
+
+Then check that you launch daemon on correct network interface. For example:
+
+$ eiskaltdcpp-daemon -L 192.168.0.132 -d
+
+Or, if you want to use all available interfaces:
+
+$ eiskaltdcpp-daemon -L 0.0.0.0 -d
+
+But this is less secure.
+
+2) Edit config.js file. For example:
+
+$ cd /usr/share/eiskaltdcpp/web/
+$ sudo nano config.js
+
+Here your should set the IP address of remote computer where eiskaltdcpp-daemon
+is launched. Related string will look like this:
+
+            "host" : "192.168.0.132",
+
+3) Install any web-server which you like and configure it. For example:
+
+$ sudo nano /etc/nginx/sites-enabled/default
+
+Content may look like this:
+
+server {
+    listen   80 default;
+    listen   [::]:80 default;
+
+    location / {
+        root /usr/share/eiskaltdcpp/web;
+        index index.html;
+    }
+}
+
+$ sudo systemctl restart nginx.service 
+
+4) Now EiskaltDC++ Web UI should be reachable at: http://<ip>/
+   If you use the same remote computer for eiskaltdcpp-web and for
+   eiskaltdcpp-daemon, in our example above it will be: http://192.168.0.132/
+
