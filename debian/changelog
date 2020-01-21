@@ -1,3 +1,9 @@
+eiskaltdcpp-web-devel (1.0-0ppa1~focal1) focal; urgency=medium
+
+  * New Git snapshot.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 22 Jan 2020 00:27:11 +0300
+
 eiskaltdcpp-web (0.0-1) unstable; urgency=low
 
   * Initial release.
