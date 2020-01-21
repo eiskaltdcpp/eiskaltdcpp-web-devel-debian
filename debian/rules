@@ -2,3 +2,8 @@
 
 %:
 	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+	dh_linktree embed usr/share/javascript/jquery/jquery.js \
+	                  usr/share/eiskaltdcpp/web/js/lib/jquery.js
