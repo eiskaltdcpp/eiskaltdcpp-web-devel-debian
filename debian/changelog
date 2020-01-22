@@ -1,38 +1,8 @@
-eiskaltdcpp-web-devel (1.0-0ppa6~focal1) focal; urgency=medium
-
-  * Small improvements in the package.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 22 Jan 2020 02:08:42 +0300
-
-eiskaltdcpp-web-devel (1.0-0ppa5~focal1) focal; urgency=medium
-
-  * Small improvements in the package.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 22 Jan 2020 01:54:16 +0300
-
-eiskaltdcpp-web-devel (1.0-0ppa4~focal1) focal; urgency=medium
-
-  * Small improvements in the package.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 22 Jan 2020 01:35:55 +0300
-
-eiskaltdcpp-web-devel (1.0-0ppa3~focal1) focal; urgency=medium
-
-  * Small improvements in the package.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 22 Jan 2020 01:15:03 +0300
-
-eiskaltdcpp-web-devel (1.0-0ppa2~focal1) focal; urgency=medium
-
-  * Small improvements in the package.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 22 Jan 2020 01:05:13 +0300
-
-eiskaltdcpp-web-devel (1.0-0ppa1~focal1) focal; urgency=medium
+eiskaltdcpp-web-devel (1.0+3+g26cb6b9-0ppa1~focal1) focal; urgency=medium
 
   * New Git snapshot.
 
- -- Boris Pek <tehnick@debian.org>  Wed, 22 Jan 2020 00:27:11 +0300
+ -- Boris Pek <tehnick@debian.org>  Wed, 22 Jan 2020 03:17:20 +0300
 
 eiskaltdcpp-web (0.0-1) unstable; urgency=low
 
