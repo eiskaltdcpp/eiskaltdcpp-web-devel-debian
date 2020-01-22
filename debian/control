@@ -11,7 +11,10 @@ Rules-Requires-Root: no
 
 Package: eiskaltdcpp-web
 Architecture: all
-Depends: libjs-jquery, libjs-jquery-tablesorter, ${misc:Depends}
+Depends: libjs-jquery,
+         libjs-jquery-tablesorter,
+         libjs-requirejs,
+         ${misc:Depends}
 Recommends: eiskaltdcpp-daemon, xdg-utils
 Description: Simple Web UI for eiskaltdcpp-daemon
  This package contains Web UI for eiskaltdcpp-daemon. It may be used locally on

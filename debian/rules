@@ -6,4 +6,5 @@
 override_dh_link:
 	ln -sf /usr/share/javascript/jquery/jquery.js \
 	       /usr/share/javascript/jquery-tablesorter/js/jquery.tablesorter.js \
+	       /usr/share/javascript/requirejs/require.js \
 	       debian/eiskaltdcpp-web/usr/share/eiskaltdcpp/web/js/lib/
