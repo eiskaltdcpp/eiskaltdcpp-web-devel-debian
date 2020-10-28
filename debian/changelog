@@ -1,3 +1,9 @@
+eiskaltdcpp-web-devel (1.0.1+1+ga252fa1-0ppa2~hirsute1) hirsute; urgency=medium
+
+  * Small improvements in the package.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 28 Oct 2020 22:08:05 +0300
+
 eiskaltdcpp-web-devel (1.0.1+1+ga252fa1-0ppa1~focal1) focal; urgency=medium
 
   * New Git snapshot.
