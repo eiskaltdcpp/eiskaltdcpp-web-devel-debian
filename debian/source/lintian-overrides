@@ -1,8 +1,3 @@
 # False positive:
 eiskaltdcpp-web-devel source: source-is-missing js/lib/jquery.tablesorter.js*
 eiskaltdcpp-web-devel source: source-contains-prebuilt-javascript-object js/lib/jquery.tablesorter.js*
-
-# This lintian note will not be fixed by upstream developers: there are no
-# classical tarballs with "releases" now, only automatically generated
-# tarballs from git tags exist.
-eiskaltdcpp-web-devel source: debian-watch-does-not-check-gpg-signature
