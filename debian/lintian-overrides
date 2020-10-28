@@ -1,2 +1,5 @@
 # Symlinks should be absolute for correct work of eiskaltdcpp-web.
-eiskaltdcpp-web: symlink-should-be-relative usr/share/eiskaltdcpp/web/js/lib/*
+eiskaltdcpp-web: absolute-symlink-in-top-level-folder usr/share/eiskaltdcpp/web/js/lib/*
+
+# This is not a documentation but Web UI itself.
+eiskaltdcpp-web: package-contains-documentation-outside-usr-share-doc usr/share/eiskaltdcpp/web/index.html
