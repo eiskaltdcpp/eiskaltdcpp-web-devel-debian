@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: EiskaltDC++ Web UI
-Upstream-Contact: Dorian Scholz <DorianScholz@gmx.de>
-                  Boris Pek <tehnick-8@yandex.ru>
+Upstream-Contact: Boris Pek <tehnick-8@yandex.ru>
+                  Dorian Scholz <DorianScholz@gmx.de>
 Source: https://github.com/eiskaltdcpp/eiskaltdcpp-web
 
 Files: *

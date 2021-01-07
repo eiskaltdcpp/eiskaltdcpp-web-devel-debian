@@ -1,4 +1,4 @@
-version=3
+version=4
 https://github.com/eiskaltdcpp/eiskaltdcpp-web/tags \
 .*/eiskaltdcpp/eiskaltdcpp-web/archive/v(.+)\.tar\.gz \
 debian uupdate
